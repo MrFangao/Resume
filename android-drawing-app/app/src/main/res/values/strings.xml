@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">drawing app</string>
+    <string name="pen">pen</string>
+    <string name="eraser">eraser</string>
+    <string name="color">color</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

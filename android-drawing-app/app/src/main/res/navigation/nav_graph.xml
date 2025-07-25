@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/drawFragment">
+
+    <!-- DrawFragment -->
+    <fragment
+        android:id="@+id/drawFragment"
+        android:name="com.example.drawingapp.fragments.DrawFragment"
+        android:label="绘画面板">
+        <action
+            android:id="@+id/action_drawFragment_to_drawingListFragment"
+            app:destination="@id/drawingListFragment" />
+    </fragment>
+
+    <!-- DrawingListFragment -->
+    <fragment
+        android:id="@+id/drawingListFragment"
+        android:name="com.example.drawingapp.fragments.DrawingListFragment"
+        android:label="绘图列表">
+        <action
+            android:id="@+id/action_drawingListFragment_to_drawFragment"
+            app:destination="@id/drawFragment" />
+    </fragment>
+
+</navigation>
