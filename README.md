@@ -25,3 +25,7 @@ A remake of the classic Snake game implemented in C++. Features include keyboard
 ### 4. [ROM Dumper](./ROM-dumper)
 
 An STM32-based embedded system project that reads ROM data from a connected cartridge and transmits it via USB to a host computer. Includes a Python GUI for receiving and saving dumped data, with USB CDC and HAL-based firmware implementation.
+
+---
+### 5. [Blackjack Counting Trainer](./21)
+A mobile app built with Python and Flutter for practicing blackjack strategy and card-counting skills. Features include a full blackjack simulator, running/true count tracking, card-flash training mode, and session history for performance review. 
